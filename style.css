@@ -14,13 +14,13 @@ h1{
 .main{
     background-color: aliceblue;
     padding:15px;
-    width:55%;
-    margin-left:21.5%;
+    width:52%;
+    margin-left:23%;
 }
 
 .rightSect, .leftSect{
     width:20%;
-    padding:5px;
+    padding:15px;
     background-color: aqua;
     margin:10px;
 }
@@ -51,10 +51,11 @@ h1{
     padding: 10px;
 }
 
-.rightSect H2{
+.rightSect h2{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
+
 .rightSect img{
     height: 60px;
     width:60px;
@@ -81,4 +82,19 @@ h1{
 .mainCont a:hover{
     background-color: #121212;
     color:#F5F5F5;
+}
+
+
+.adCont{
+    font-size: 3em;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height:100%;
+    background-color: #121212;
+    color:#F5F5F5;
+    padding-top:70px;
+    box-sizing: border-box;
+}
+.mainAdCont{
+    height:200px;
 }
