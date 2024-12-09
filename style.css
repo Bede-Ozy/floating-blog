@@ -10,3 +10,51 @@ header{
 h1{
     text-align: center;
 }
+
+.main{
+    background-color: aliceblue;
+    padding:15px;
+    width:55%;
+    margin-left:21.5%;
+}
+
+.rightSect, .leftSect{
+    width:20%;
+    padding:5px;
+    background-color: aqua;
+    margin:10px;
+}
+
+.leftSect{
+    float:left;
+    padding-top: 25px;
+}
+
+.leftSect h2{
+    padding:0;
+    margin:0px 10px;
+}
+
+.rightSect{
+    float:right;
+    padding-top:25px ;
+}
+
+.laftCont img{
+    width:50%;
+    height:150px;
+    float:left;
+    margin:10px;
+}
+.laftCont p{
+    padding: 10px;
+}
+
+.rightSect H2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.rightSect H2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
