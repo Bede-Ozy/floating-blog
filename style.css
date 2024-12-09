@@ -78,7 +78,9 @@ h1{
     display:block;
     transition: background-color 2s ease-out 100ms
 }
-
+.mainCont h3{
+    font-size: 2rem;
+}
 .mainCont a:hover{
     background-color: #121212;
     color:#F5F5F5;
