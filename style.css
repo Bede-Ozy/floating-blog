@@ -98,3 +98,8 @@ h1{
 .mainAdCont{
     height:200px;
 }
+.mainCont p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif ;
+    line-height: 25px;
+}
