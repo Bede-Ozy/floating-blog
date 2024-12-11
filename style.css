@@ -70,7 +70,6 @@ h1{
 .rightSect{
     float:right;
     padding-top:25px ;
-    margin-bottom: ;
 }
 
 .laftCont img{
@@ -185,7 +184,7 @@ footer p{
 .gridLaftCont{
     display:grid;
     background-color:#F5F5F5;
-    grid-template-rows: 50px 70px auto;
+    grid-template-rows: 50px 70px auto 50px;
     margin-bottom:30px;
     padding:15px;
 }
@@ -202,6 +201,15 @@ footer p{
     text-align: center;
     padding:10px;
 }
+.gridLaftCont a{
+    display:block;
+    text-align: center;
+    border:2px solid #121212;
+    border-radius: 10px;
+    padding-top:13px;
+    text-decoration: none;
+    color:#121212;
+}
 
 .gridLaftCont p{
     padding:20px;
@@ -216,7 +224,6 @@ footer p{
     grid-template-rows: 80px 80px 80px;
     gap:10px;
     padding:15px;
-    ba
 }
 
 .gridRightCont h2{
@@ -236,33 +243,82 @@ footer p{
 
 .gridMid{
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 350px 350px 350px;
+    grid-template-rows: 180px 180px 180px;
     gap:20px;
     padding:20px 20px 20px 31px;
     box-sizing: border-box;
 }
 
 .gridMidCont{
-    display:grid;
-    grid-template-rows: 100px auto;
-    background-color: yellow;
+    width:100%;
+    background-color: azure;
     box-sizing: border-box;
-}
-.gridMidCont H2{
-    text-align:center;
-    height:100%;
+    /*display:grid;
+    height:300px;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 1fr 1fr; */
 }
 
 .gridMidCont a{
+    display: block;
+    height:100%;
+    width:100%;
+    padding:10px;
+    box-sizing: border-box;
+    transition: background-color 0.3s ease-in-out 50ms;
+    text-decoration: none;
+}
+.gridMidCont a:hover{
+    background-color: #12121234;
+    color:#121212;
+}
+
+.gridMidCont > a > .anc{
+    display:grid;
+    grid-template-rows: 50px auto;
+    grid-template-columns: 1fr 4fr;
+    gap:10px;
+}
+.anc img{
+    grid-row: span 2;
+    width:100%;
+    border-radius: 10%;
+    margin: 10px;
+}
+.anc h2{
+    text-align: left ;
+    margin-bottom:0;
+    padding:10px;
+    width:95%;
+}
+.anc p{
+    text-align: left;
+    margin:10px 5px;
+    box-sizing: border-box;
+    height:auto;
+    padding:5px;
+    width:95%;
+}
+/* .gridMidCont H2{
+    text-align:center;
+    height:100%;
+}
+.gridMidCont img{
+    height:100%;
+    width:100%;
+}*/
+/*
+.gridMidCont a{
     display:block;
-    transition: background-color 2s ease-out 100ms;
+    transition: background-color 0.5s ease-out 20ms;
     text-decoration: none;
     height:100%;
+    color:#121212;
+    background-color: #F5F5F5;
 }
 .gridMidCont a:hover {
    background-color: black;
    color:white;
-}
+}*/
 
 
