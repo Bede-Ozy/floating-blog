@@ -27,11 +27,6 @@ nav{
     border: 1px solid #121212;
 }
 
-.pageNav:active{
-    border: 1px solid aqua;
-    color:aqua;
-}
-
 header{
     height:15%;
     padding:10px;
@@ -158,3 +153,116 @@ footer p{
     padding:10px;
     padding-top:30px;
 }
+
+
+
+
+
+
+/* ------------------------------------------- GRID BLOG PAGE STYLING ----------------------------------------- */
+
+.gridMain{
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap:20px;
+}
+
+.gridLeft{
+    height:100%;
+    padding:20px;
+}
+
+.gridRight{
+    height: 100%;
+    background-color: yellowgreen;
+}
+
+.gridMid{
+    height:100%;
+    background-color: aqua;
+}
+
+.gridLaftCont{
+    display:grid;
+    background-color:#F5F5F5;
+    grid-template-rows: 50px 70px auto;
+    margin-bottom:30px;
+    padding:15px;
+}
+
+.gridLaftCont img{
+    height:100%;
+    width:80px;
+    margin:0px 0px 0px 35%;
+    border-radius: 50%;
+}
+.gridLaftCont h2{
+    padding:0;
+    margin:0;
+    text-align: center;
+    padding:10px;
+}
+
+.gridLaftCont p{
+    padding:20px;
+    text-align:justify;
+    margin:0;
+    font-size: smaller;
+}
+
+.gridRightCont{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 80px 80px 80px;
+    gap:10px;
+    padding:15px;
+    ba
+}
+
+.gridRightCont h2{
+    text-align: center;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    grid-column: span 4;
+    padding:10px;    
+    margin:0;
+}
+
+.gridRightCont img{
+    height:100%;
+    width:100%;
+    margin:0px;
+}
+
+.gridMid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 350px 350px 350px;
+    gap:20px;
+    padding:20px 20px 20px 31px;
+    box-sizing: border-box;
+}
+
+.gridMidCont{
+    display:grid;
+    grid-template-rows: 100px auto;
+    background-color: yellow;
+    box-sizing: border-box;
+}
+.gridMidCont H2{
+    text-align:center;
+    height:100%;
+}
+
+.gridMidCont a{
+    display:block;
+    transition: background-color 2s ease-out 100ms;
+    text-decoration: none;
+    height:100%;
+}
+.gridMidCont a:hover {
+   background-color: black;
+   color:white;
+}
+
+
