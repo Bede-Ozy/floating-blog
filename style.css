@@ -304,6 +304,7 @@ footer p{
     margin-bottom:0;
     padding:10px;
     width:95%;
+    font-size: 20px;
 }
 .anc p{
     text-align: left;
@@ -312,6 +313,7 @@ footer p{
     height:auto;
     padding:5px;
     width:95%;
+    font-size: 16px;
 }
 .gridFoot{
     display:grid;
