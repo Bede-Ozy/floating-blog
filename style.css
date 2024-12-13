@@ -176,10 +176,7 @@ footer p{
     background-color: yellowgreen;
 }
 
-.gridMid{
-    height:100%;
-    background-color: aqua;
-}
+
 
 .gridLaftCont{
     display:grid;
@@ -209,8 +206,11 @@ footer p{
     padding-top:13px;
     text-decoration: none;
     color:#121212;
+    transition:background-color 0.09ms ease-in-out 50ms;
 }
-
+.gridLaftCont a:hover{
+    background-color: #12121221;
+}
 .gridLaftCont p{
     padding:20px;
     text-align:justify;
@@ -243,16 +243,20 @@ footer p{
 
 .gridMid{
     display:grid;
-    grid-template-rows: 180px 180px 180px;
+    grid-template-rows: 180px 180px 180px 180px 180px 180px 180px; 
     gap:20px;
-    padding:20px 20px 20px 31px;
+    padding:20px 20px 20px 20px;
     box-sizing: border-box;
+    height:fit-content;
+    background-color: aqua;
+    margin-bottom: 20px;
 }
 
 .gridMidCont{
     width:100%;
     background-color: azure;
     box-sizing: border-box;
+    height:180px;
     /*display:grid;
     height:300px;
     grid-template-columns: 1fr 4fr;
